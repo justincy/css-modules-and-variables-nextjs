@@ -74,6 +74,8 @@ That's fun but not necessary for just one component. It's more useful when scale
 
 You can see a larger set of variables in the [`styles.css`](src/styles.css) file of this repo.
 
+This example repo is deployed at https://css-modules-and-variables-nextjs.now.sh/
+
 ## Conclusion
 
 We don't need Theme UI, Emotion, or Styled Components. Everything we need is now baked into Next.js and the browser.

@@ -34,3 +34,11 @@ body {
   font-family: var(--font-family);
   background-color: var(--background-color);
 }
+
+a,
+a:visited,
+a:focus,
+a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
