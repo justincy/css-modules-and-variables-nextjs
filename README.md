@@ -77,3 +77,5 @@ You can see a larger set of variables in the [`styles.css`](src/styles.css) file
 ## Conclusion
 
 We don't need Theme UI, Emotion, or Styled Components. Everything we need is now baked into Next.js and the browser.
+
+This solution was inspired by [an article](https://medium.com/trabe/a-simple-react-theme-component-using-css-variables-e20434ae97c) on the [Trabe blog](https://medium.com/trabe).
