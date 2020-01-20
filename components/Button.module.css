@@ -1,0 +1,41 @@
+.base {
+  font-family: var(--font-family);
+  font-size: var(--font-size-small);
+  color: var(--text-color-light);
+  border: 0;
+  border-radius: var(--border-radius);
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: var(--space-2) var(--space-3);
+}
+
+.base:not(:first-child) {
+  margin-left: var(--space-3);
+}
+
+.primary {
+  composes: base;
+  background-color: var(--primary-color);
+}
+
+.primary:hover {
+  background-color: var(--primary-color-dark);
+}
+
+.primary:disabled {
+  background-color: #ccc;
+  color: var(--text-color);
+}
+
+.secondary {
+}
+
+.small {
+  padding: var(--space-1) var(--space-2);
+  font-size: var(--font-size-xsmall);
+}
+
+.large {
+  padding: var(--space-3) var(--space-4);
+  font-size: var(--font-size-body);
+}

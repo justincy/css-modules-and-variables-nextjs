@@ -1,0 +1,36 @@
+html {
+  --font-family: "SF Pro Text", "SF Pro Icons", system-ui;
+  --font-size-xsmall: 12px;
+  --font-size-small: 14px;
+  --font-size-body: 16px;
+  --font-size-large: 22px;
+  --font-size-xlarge: 28px;
+  --font-size-xxlarge: 36px;
+
+  --space-0: 0;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --space-6: 64px;
+
+  --app-width: 960px;
+
+  --text-color: #444444;
+  --text-color-light: white;
+  --primary-color: #599eb6;
+  --primary-color-dark: #2b86a5;
+  --background-color: #e8e8e8;
+  --content-background-color: white;
+
+  --border-radius: 2px;
+  --shadow: 0px 2px 2px rgba(0, 0, 0, 0.26);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+}
